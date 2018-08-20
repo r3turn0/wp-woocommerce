@@ -13,4 +13,5 @@
     ?>
     <?php the_content();?>
     <?php endwhile; endif;?>
+<?php dynamic_sidebar('sidebar-widget');?>
 <?php get_footer();?>
